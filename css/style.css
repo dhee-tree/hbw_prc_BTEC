@@ -1,0 +1,201 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&family=Public+Sans&display=swap');
+
+/* MAIN */
+body {
+	background-color: #f2f2f2;
+	color: #1d1d20;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	padding-top: 30PX;
+	padding-bottom: 10px;
+}
+
+main>.container-fluid {
+	padding: 60px 15px 0;
+}
+
+.logo {
+	width: 70px;
+}
+
+
+/* Header fonts */
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	color: #567358;
+}
+
+h2,
+h3,
+h4 {
+	font-family: 'Public Sans', sans-serif;
+	color: #567358;
+}
+
+/* NAV BAR */
+.bg-white-custom {
+	background-color: #ffffff;
+	color: #1d1d20;
+}
+
+.bg-white-custom a {
+	color: #1d1d20;
+}
+
+.navbar-nav li {
+	padding-right: 80px;
+}
+
+.navbar-nav li a:hover {
+	background-color: #567358;
+	color: #f2f2f2;
+	border-radius: 40px;
+}
+
+.fas {
+	color: rgb(0, 0, 0);
+	font-size: 28px;
+}
+
+/* Footer */
+.footer {
+	background-color: #737373;
+	color: #f2f2f2;
+}
+
+
+.footer a {
+	color: #05F29B;
+	text-decoration: none;
+	padding: 5px;
+}
+
+.footer a:hover {
+	background-color: #05F29B;
+	color: #1d1d1d;
+	border-radius: 20px;
+}
+
+.footer>.container {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+/* Homepage */
+.client-logo {
+	width: auto;
+	height: auto;
+}
+
+.resize {
+	width: 20%;
+}
+
+.clients {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.clients img {
+	width: 10%;
+	padding-right: 20px;
+}
+
+.index-img {
+	width: 60%;
+	position: relative;
+	left: 20%;
+}
+
+/* Meet our team */
+#employee-img img {
+	width: 300px;
+	border: 1px solid #1d1d1d;
+}
+
+.card {
+	border: solid 1px;
+	width: 150px;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+.card-img img {
+	width: 100px;
+	cursor: pointer;
+	border: 1px solid #1d1d1d;
+	border-radius: 50%;
+}
+
+.employee-name {
+	cursor: pointer;
+}
+
+.centered {
+	text-align: center;
+}
+
+/* Resourse page */
+.resource-card {
+	border: 1px solid;
+	padding: 10px;
+	margin: 10px;
+}
+
+/*  */
+.resource-card a,
+.links-bold a {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.resource-img {
+	float: left;
+	width: 100px;
+	padding: 0 10px 0 0;
+}
+
+/* Job pages */
+
+.apply {
+	padding-top: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+	.apply {
+		padding-top: 0;
+	}
+}
+
+.file {
+	border: 1px solid;
+	width: 300px;
+	padding: 5px;
+	border-radius: 8px;
+	background-color: #fff;
+}
+
+.file .fas {
+	float: right;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#file-chosen {
+	cursor: pointer;
+}
+
+/* About & Contact pages */
+input,
+textarea {
+	border-radius: 8px;
+	padding: 5px;
+	width: 300px;
+}
+
+/* Policy page */
