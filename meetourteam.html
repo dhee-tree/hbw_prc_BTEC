@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hot Beans Web is a web design agency located in Peterborough and Northampton.">
+    <meta name="author" content="Ighomena Daniel Odebala - P110126653">
+    <title>Hot Beans | Jobs</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/sticky-footer-navbar/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md fixed-top bg-white-custom">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars"></i></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="meetourteam.html">Meet our team </a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-expanded="false">Jobs</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="jobpage.html">Jobs Page</a>
+                            <a class="dropdown-item" href="jobapplication.html">Job Application</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="resources.html">Resources</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page content -->
+    <main role="main" class="flex-shrink-0">
+        <div class="container-fluid">
+
+            <p>Click the name for more info</p>
+
+            <div class="centered">
+                <div class="card">
+                    <a onclick="First()" class="card-img">
+                        <img src="images/Daniel_Lecroy-Round.jpg" alt="Daniel Lecroy Round Picture"></img>
+                    </a><br><br>
+                    <p onclick="First()" class="employee-name"><b>Daniel</b></p>
+                    <p onclick="First()" class="employee-name">Web Designer</p>
+                </div>
+
+                <div class="card">
+                    <a onclick="Second()" class="card-img">
+                        <img src="images/Rosa_DeCastello-Round.jpg" alt="Rosa DeCastello Round Picture"></img>
+                    </a><br><br>
+                    <p onclick="Second()" class="employee-name"><b>Rosa</b></p>
+                    <p onclick="Second()" class="employee-name">Web Developer</p>
+                </div>
+
+                <div class="card">
+                    <a onclick="Third()" class="card-img">
+                        <img src="images/Li Chang-Round.jpg" alt="Li Chang Round Picture"></img>
+                    </a><br><br>
+                    <p onclick="Third()" class="employee-name"><b>Li</b></p>
+                    <p onclick="Third()" class="employee-name">Web Designer</p>
+                </div>
+            </div>
+
+            <br><br><br>
+            <div id="employee-img" class="centered"></div>
+            <hr>
+            <h1 id="employee-name">Select Employee</h1>
+            <h2 id="job-role"></h2>
+            <p id="role-txt"></p>
+            <h2 id="description"></h2>
+            <span id="description-txt"></span>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer mt-auto py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                        Company Address<br>
+                        75 Broadway<br>
+                        Peterborough<br>
+                        PE1 1SY <br><br>
+                        <a href="tel:01733762255">01733 762255</a><br>
+                        contactus@hotbeansweb.co.uk
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="policy.html">Policy</a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="resources.html">Resources</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/5d89eac93b.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
